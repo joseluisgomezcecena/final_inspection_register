@@ -25,7 +25,7 @@ class Users extends CI_Controller{
 			$mail = $this->input->post('user_name') . "@martechmedical.com";
 
 			//department id
-			$user_department_id = 3;
+			$user_department_id = 5;
 
 			//user_martech_number
 			$user_martech_number = $this->input->post('user_martech_number');
